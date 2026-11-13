@@ -4,18 +4,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AWS Deployment Project</title>
+
+    <title>AWS Deployment Lab</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>My Website Update Was Successful!</h1>
 
-    <p>This website is hosted on Amazon EC2.</p>
+    <header class="navbar">
+        <div class="logo">CloudLab<span>.</span></div>
 
-    <p>I created this file locally using WSL.</p>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#technologies">Technologies</a>
+        </nav>
+    </header>
 
-    <p>I deployed it securely using SCP over SSH.</p>
+    <main>
 
-    <p>Web Server: Nginx</p>
-    <p>Cloud Provider: Amazon Web Services</p>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">MY FIRST CLOUD PROJECT</p>
+
+                <h1>Learning Cloud Computing Through Practice.</h1>
+
+                <p class="hero-description">
+                    Exploring AWS infrastructure, Linux administration,
+                    web servers and modern DevOps practices through
+                    practical projects.
+                </p>
+
+                <a href="#technologies" class="btn">
+                    Explore Technologies
+                </a>
+            </div>
+
+            <div class="hero-card">
+                <div class="status-indicator"></div>
+                <p class="card-label">PROJECT STATUS</p>
+                <h2>AWS Deployment Lab</h2>
+                <p>Website source code managed with Git and GitHub.</p>
+
+                <div class="card-divider"></div>
+
+                <div class="detail">
+                    <span>Cloud provider</span>
+                    <strong>Amazon AWS</strong>
+                </div>
+
+                <div class="detail">
+                    <span>Web server</span>
+                    <strong>Nginx</strong>
+                </div>
+
+                <div class="detail">
+                    <span>Operating system</span>
+                    <strong>Ubuntu</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <p class="eyebrow">ABOUT THE PROJECT</p>
+
+            <h2>Learning by Building</h2>
+
+            <p>
+                This project demonstrates the process of creating,
+                version-controlling and deploying a website using
+                Linux, Git, GitHub, AWS EC2 and Nginx.
+            </p>
+        </section>
+
+        <section class="technologies section" id="technologies">
+            <p class="eyebrow">OUR TOOLKIT</p>
+
+            <h2>Technologies Used</h2>
+
+            <div class="tech-grid">
+
+                <article class="tech-card">
+                    <h3>AWS EC2</h3>
+                    <p>Cloud computing infrastructure for hosting applications.</p>
+                </article>
+
+                <article class="tech-card">
+                    <h3>Ubuntu Linux</h3>
+                    <p>Operating system used to manage the cloud server.</p>
+                </article>
+
+                <article class="tech-card">
+                    <h3>Nginx</h3>
+                    <p>Web server responsible for serving website content.</p>
+                </article>
+
+                <article class="tech-card">
+                    <h3>Git & GitHub</h3>
+                    <p>Version control and remote source-code management.</p>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Built as part of my AWS and DevOps learning journey.</p>
+        <p>&copy; 2026 CloudLab. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
+
